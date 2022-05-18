@@ -101,6 +101,12 @@
 
 
 /******************** News of the Day Part Start  ********************/
+.news-of-the-day-section-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: #b5b6c2;
+}
 .news-card {
     box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.05);
     background-color: #fff;
@@ -115,6 +121,12 @@
     width: 100%;
     height: auto;
 }
+.news-body-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(92, 93, 120, 0.6);
+}
 .news-body-title {
     font-weight: 500;
     font-size: 16px;
@@ -122,12 +134,6 @@
     color: #5c5d78;
     margin-top: 40px;
     margin-bottom: 10px;
-}
-.news-body-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: rgba(92, 93, 120, 0.6);
 }
 .slider {
     margin: 0px auto;
@@ -160,34 +166,6 @@
 /******************** Single Blog Card End ********************/
 
 /******************** Popular Categories Start  ********************/
-.news-card {
-    box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
-    border-radius: 20px;
-    margin-right: 48px;
-    max-width: 388px;
-}
-.news-body {
-    padding: 20px;
-}
-.news-image {
-    width: 100%;
-    height: auto;
-}
-.news-body-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #5c5d78;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-.news-body-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: rgba(92, 93, 120, 0.6);
-}
 .slider {
     margin: 0px auto;
 }
@@ -273,6 +251,9 @@
     }
 }
 @media screen and (max-width: 991px) {
+    .extra{
+        display: none;
+    }
     .header-content h3 {
         font-size: 40px;
     }
@@ -320,15 +301,24 @@
     }
 }
 @media screen and (max-width: 767px) {
+    .single-blog-card{
+        margin-bottom:48px
+    }
+    .section-gap {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
     .header-content h3 {
         font-size: 32px;
     }
-    .blog-page-title {
+    
+    .news-of-the-day-section-title {
         font-size: 40px;
         text-align: center;
+        padding-bottom:48px;
     }
     .popular-section-title {
-        font-size: 40px;
+        font-size: 32px;
     }
     .trending-review-headline {
         font-size: 40px;
@@ -393,6 +383,10 @@
     }
 }
 @media screen and (max-width: 479px) {
+    .section-gap {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
     .header {
         height: 400px;
         background-size: cover;
@@ -406,12 +400,12 @@
         max-width: 324px;
         width: 100%;
     }
-    .blog-page-title {
+    .news-of-the-day-section-title {
         font-size: 32px;
         text-align: center;
     }
     .popular-section-title {
-        font-size: 32px;
+        font-size: 24px;
     }
     .trending-review-headline {
         font-size: 32px;
