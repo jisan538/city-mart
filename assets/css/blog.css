@@ -290,6 +290,86 @@
 }
 /******************** Single Blog Card End ********************/
 
+/******************** Popular Categories Start  ********************/
+.news-card {
+    box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 48px;
+    max-width: 388px;
+}
+.news-body {
+    padding: 20px;
+}
+.news-image {
+    width: 100%;
+    height: auto;
+}
+.news-body-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5c5d78;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.news-body-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(92, 93, 120, 0.6);
+}
+.slider {
+    margin: 0px auto;
+}
+
+.slider-image img{
+    width: 100%;
+}
+.slider-image:nth-child(1) img{
+    margin-bottom:24px;
+}
+.popular-categories-slider .slick-dots {
+    position: absolute;
+    bottom: -45px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.popular-categories-slider .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.popular-categories-slider .slick-dots li button {
+    display: none;
+}
+.popular-categories-slider .slick-dots li:before {
+    transition: all 0.5s;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #C4C4C4;
+    position: absolute;
+}
+.popular-categories-slider .slick-dots li.slick-active:before {
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #FF0000;
+}
+
+/******************** Popular Categories End  ********************/
+
 /********************  Media Queries Start  ********************/
 @media screen and (max-width: 1400px) {
     .latest-blog-details {

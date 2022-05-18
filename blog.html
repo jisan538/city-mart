@@ -587,8 +587,8 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="popular-categories-section">
-                            <h5 class="abcd" style="margin-bottom: 16px">
+                        <div class="popular-categories-section">
+                            <h5 class="popular-section-title" style="margin-bottom: 16px">
                                 Popular Categories
                             </h5>
                             <div class="gap divider-box">
@@ -596,16 +596,126 @@
                                 <div class="divider-highlight"></div>
                             </div>
                             <div class="popular-categories">
-                                <div style="display:flex; padding-bottom:20px">
-                                    <img src="assets/images/products/food & beverage.jpg" alt="" style="display:flex; padding-right:20px">
-                                    <img src="assets/images/products/decor.jpg" alt="">
-                                </div>
-                                <div style="display:flex;">
-                                    <img src="assets/images/products/fashion.jpg" alt="" style="display:flex; padding-right:20px">
-                                    <img src="assets/images/products/furniture.png" alt="">
+                                <div class="popular-categories-slider">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="slider-image">
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/fashion.jpg"
+                                                        alt=""
+
+                                                    />
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/food & beverage.jpg"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="slider-image">
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/decor.jpg"
+                                                        alt=""
+                                                    />
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/furniture.png"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="slider-image">
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/fashion.jpg"
+                                                        alt=""
+
+                                                    />
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/food & beverage.jpg"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="slider-image">
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/decor.jpg"
+                                                        alt=""
+                                                    />
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/furniture.png"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="slider-image">
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/fashion.jpg"
+                                                        alt=""
+
+                                                    />
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/food & beverage.jpg"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="slider-image">
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/decor.jpg"
+                                                        alt=""
+                                                    />
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/furniture.png"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="slider-image">
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/fashion.jpg"
+                                                        alt=""
+
+                                                    />
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/food & beverage.jpg"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="slider-image">
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/decor.jpg"
+                                                        alt=""
+                                                    />
+                                                    <img class="img-fluid"
+                                                        src="assets/images/products/furniture.png"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1184,6 +1294,15 @@
                 autoplay: true,
                 autoplaySpeed: 1500,
                 variableWidth: true,
+            });
+            $(".popular-categories-slider").slick({
+                arrows: false,
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                
             });
         </script>
         <!--------------------  Internal JavaScript End  -------------------->
